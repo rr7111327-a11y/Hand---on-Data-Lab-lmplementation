@@ -1,0 +1,33 @@
+YUVA INTERN TASK 2 - HANDS-ON DATA LAB RESULTS
+Dataset: synthetic practice data (not real student records)
+Rows analysed: 120
+Rows in source file: 120
+Missing values before cleaning: 3
+Missing values after cleaning: 0
+
+DESCRIPTIVE STATISTICS
+       hours_studied  attendance_percent  assignments_completed  previous_score  final_score
+count         120.00              120.00                 120.00          120.00       120.00
+mean            3.73               77.49                   6.66           58.36        78.20
+std             1.15               11.46                   2.42           14.20        10.16
+min             1.20               52.20                   3.00           25.30        53.80
+25%             3.00               69.03                   4.00           48.58        71.90
+50%             3.80               76.30                   7.00           60.80        77.90
+75%             4.53               83.68                   9.00           68.53        84.85
+max             7.00              100.00                  10.00           90.60       100.00
+
+CORRELATION WITH FINAL SCORE
+final_score              1.000
+hours_studied            0.523
+previous_score           0.448
+attendance_percent       0.341
+assignments_completed    0.335
+
+AVERAGE FINAL SCORE BY ATTENDANCE GROUP
+attendance_group
+Below 60    73.42
+60-75       73.76
+75-90       79.95
+90-100      85.59
+
+Interpretation: Correlation describes association, not proof of causation.
